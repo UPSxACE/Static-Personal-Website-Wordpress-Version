@@ -1,0 +1,830 @@
+/*
+Theme Name: StaticPersonalWebsite
+Theme URI: www.linkedin.com/in/eduardo-botelho-3262a722a/
+Description: Static version of my personal website, fully responsive to almost any modern device, coded line by line by me.
+Version: 2.5
+Author: Eduardo Botelho
+Author URI: eduardobotelho.com
+*/
+
+
+
+.contentHome .contentBlock::-webkit-scrollbar{
+    display: none;
+}
+
+.contentHome .contentBlock {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+p{
+    font-size: 1rem;
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1199px){
+    img.squarepic{
+        display: none;
+    }
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.FullContent{
+    width: 100%;
+}
+
+.MainContent{
+    width: 100%;
+}
+
+.pictureDivider{
+
+    height: 100%!important;
+}
+
+div.pictureDivider.col-12{
+    display: flex;
+
+}
+
+.contentHome .row{
+    width: 100%;
+}
+
+.tab-pane{
+    width: 100%;
+}
+
+
+.outsideColumn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.contentBlock{
+    width: 100%;
+}
+
+.pic{
+
+    height: 100%;
+}
+
+
+
+
+div.col-6.right{
+    padding-left:0px!important;
+}
+
+.contentHome .CentralText{
+    padding-bottom: 25px
+}
+
+
+
+.Footer p{
+    padding:0;
+    margin:0;
+}
+@media (max-width: 530px){
+    .Footer p{
+        font-size:12px;
+    }
+}
+
+@media (max-width: 515px) {
+    h1.display-1{
+        font-size: calc(0.9rem + 4.5vw)!important;
+    }
+
+    h1.display-1 i{
+        font-size: 55px;
+        line-height: 0;
+    }
+
+    h4{
+        font-size: calc(0.9rem + 0.15vw);
+    }
+
+    button.btn-dark{
+        font-size: 0.8rem!important;
+    }
+}
+
+h1,h2,h3,p,span, button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+}
+
+.MainContent, .Footer{
+    /*border: 1px solid rgba(0,0,0,0.5)!important;*/
+}
+
+.Footer{
+    text-align: center;
+    align-items: center;
+}
+
+.nav-item button.active{
+    border-color: #21252a white #21252a!important;
+
+
+}
+
+
+html, body{
+    background-color: white!important;
+}
+
+.btn-dark{
+    /*background-color:#69849b!important;*/
+    border-color: rgba(0,0,0,0.2);
+    color:white!important;
+    font-weight: 500!important;
+    box-shadow: 1px 1px rgba(0,0,0,0.5) ;
+
+}
+
+.nav-tabs{
+    border-bottom: 0px solid white;
+}
+
+.nav-item button{
+    background-color: #21252a!important;
+    color: white!important;
+    font-weight: 500!important;
+    border-radius:0!important;
+
+    /*border: 1px solid rgba(0,0,0,0.2);*/
+
+}
+
+.nav-item button.active{
+    background-color: #21252a !important;
+    color:white!important;
+    border-radius:0;
+}
+
+div.socialMediaIcons.test{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+div.socialMediaIcons h1{
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+@media(max-width: 460px){
+    div.socialMediaIcons h1{
+        font-size: 30px;
+    }
+}
+
+.socialMediaIcons a{
+    color:#21252a;
+}
+.socialMediaIcons a:hover{
+    color: rgb(78, 113, 164);
+}
+
+.navbar.outside button:hover:not(.active){
+    background-color: rgb(78, 113, 164)!important;
+}
+
+.btn-dark:hover, li.nav-item button:not(.active):hover{
+    background-color: rgb(89, 126, 185)!important;
+    border-color: rgba(204, 198, 198, 0.1);
+}
+
+
+
+.Footer{
+    background-color: #21252a!important;
+    color:white
+}
+
+article{
+    background-color: #dcdcdd!important;
+}
+
+
+
+
+
+.bigThickLine{
+    background-color:cornflowerblue!important;
+}
+
+.ContentByRows{
+    background-color: transparent!important;
+}
+
+h1{
+    background-color: transparent!important;
+}
+
+.titleWithLine{
+    background-color: transparent!important;
+}
+
+.contentHome .contentBlock{
+    /*display: flex;
+    align-items: center;*/
+    text-align: left;
+
+}
+/*
+.contentHome .contentBlock img{
+    height: 100%;
+}*/
+
+img.pic {
+    opacity: 100%!important;
+}
+
+@media (max-width: 1319px) {
+    .MainContent img.pic{
+        display: none;
+    }
+
+    .MainContent h1{
+        padding-top: 5px;
+    }
+}
+
+@media (max-aspect-ratio: 4/3){
+    .pic{
+        display:none!important;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 475px){
+    h1.display-1{
+        font-size: 48px!important;
+    }
+
+    .CentralText h4{
+        font-size: 20px!important;
+    }
+} /* maybe will add smaller heights later*/
+
+@media (min-width: 1320px) {
+    .MainContent img.squarepic{
+        display: none;
+    }
+
+
+}
+
+.contentHome img.squarepic{
+    height:215px;
+    width: 215px;
+}
+@media (max-aspect-ratio: 4/5 ){
+    .squarepic{
+        height: auto!important;
+        width: 55%!important;
+    }
+}
+
+@media (min-aspect-ratio: 4/5 ){
+    .squarepic{
+        display: none;
+    }
+}
+
+.contentHome h1.display-1{
+    margin-bottom: 0;
+}
+
+.contentBlock .titleWithLine{
+    margin-bottom: 10px;
+}
+
+.contentBlock .col-6{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.contentHome .centeredContent .display-1 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+.contentHome .centeredContent h4{
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+
+@media (max-width: 411px) {
+    .squarepic{
+        width: 48% !important;
+    }
+
+    .Footer p {
+        font-size: calc(0.2rem + 2vw);
+    }
+}
+
+@media (max-width: 316px){
+    .squarepic{
+        width: 45%!important;
+    }
+
+    h1.display-1{
+        font-size: calc(0.75rem + 4.5vw)!important;
+    }
+
+    h4{
+        font-size: calc(0.75rem + 0.15vw);
+    }
+
+    button.btn-dark{
+        font-size: 0.6rem!important;
+    }
+
+    .Footer p {
+        font-size: calc(0.1rem + 2vw);
+    }
+}
+
+
+
+
+header.col-12, div.col-12{
+    padding: 0px; /* Turning off the automatic padding that comes with bootstrap, on columns of size 12 */
+}
+
+.body{
+
+}
+.container-lg{
+    min-width: 93%; /* This line is to counter the fact that bootstrap margins are too big*/
+    padding:0px;
+    height: 100%;
+
+}
+
+/*.navWrapper{ /*lots of mobile browsers have problems justifying buttons, so I need this wrapper
+    display: flex;
+    height: 70px;
+    align-items: end;
+    justify-content: right;
+}  */
+
+header.navbarHeader{
+    display: flex;
+    height: 70px;
+    align-items: end;
+    justify-content: right;
+
+    align-self: end;
+    justify-self: right;
+    object-fit: contain;
+
+    z-index: 1;
+}
+
+nav.navbar{
+    padding-bottom: 0px!important;
+    padding-top:0px!important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+.navbar-toggler{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 43px;
+    margin-right: 0px!important;
+    background-color: #21252a;
+}
+
+.navbar-toggler i{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    line-height: 30px;
+    color: white;
+
+}
+.navWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-collapse.collapse.inside .nav-tabs,.navbar-collapse.collapsing.inside .nav-tabs, nav.inside{
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+
+
+.navbar-expand-lg.inside{
+    background-color: transparent!important;
+}
+
+.navbar-expand-lg.inside button.nav-link{
+    border:transparent!important;
+    margin:0px;
+}
+
+.navbar.inside{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+.navbar.inside .nav-link{
+    border-right:0px;
+}
+
+@media (max-width: 991px){
+    .navbar.outside{
+        display: none;
+    }
+
+    header{
+        /*display: none!important;*/
+    }
+}
+
+@media (min-width: 992px){
+    .navbar.inside{
+        display: none;
+    }
+}
+
+#navbarSupportedContent, #navbarSupportedContent ul{
+    width: max-content;
+}
+
+#navbarSupportedContent li, #navbarSupportedContent li button{
+    width: 100%;
+}
+
+.navbar-toggler{
+    border-radius: 0px;
+    border:0px;
+    border-left: 1px solid white;
+    border-color: white!important;
+}
+
+.navbar-toggler:focus, .navbar.outside button.active:focus, .navbar.inside button{
+    box-shadow:none!important;
+}
+
+/*.navWrapper2{
+    align-self: end;
+    justify-self: right;
+    object-fit: contain;
+}*/
+
+
+
+.FullContent{
+    height: calc(100% - 70px);
+}
+
+@media only screen and (orientation: portrait){
+    .FullContent{
+        height: calc(100% - 35px)!important;
+    }
+
+    .navWrapper{
+        /*height: 35px!important;        UNCOMMENT IF NEEDED*/
+    }
+}
+
+@media (max-width: 991px){
+    .FullContent{
+        height: calc(100% - 35px)!important;
+    }
+
+    .navWrapper{
+        /*height: 35px!important;        UNCOMMENT IF NEEDED*/
+    }
+
+    .navbarHeader{
+        background-color: #21252a;
+    }
+}
+
+.row.MainContent{
+    background-color:grey;
+    position: relative;
+    word-break: break-word;
+    height: calc(100% - 70px);
+    /*overflow: hidden scroll;               -- APAGAR*/
+}
+.row.MainContent::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .row.MainContent{
+        height: calc(100% - 86px);
+    }
+
+    header{
+        height: 43px!important;
+    }
+
+    .row.Footer{
+        height: 43px!important;
+    }
+}
+
+html,body{ /*-- Sorry for this bad practice :(
+                I'm still a beginner and CSS can be confusing
+                So I went to the easiest solution*/
+
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.row.Footer{
+    /*width: 100%;*/
+    position: relative;
+    bottom: 0;
+    background-color: lightgreen;
+    height: 70px;
+}
+
+
+
+
+/*Content Settings*/
+.MainContent .contentBlock{
+    width: 100%; /*I will maybe regret this someday*/
+    /*Later will make padding smaller and then disappear, on smaller screens*/
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+}
+
+#teste{ /* teste */
+    background-color: darkgreen;
+    padding-right: 100%;
+    padding-left:100px;
+
+}
+
+.titleWithLine{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+
+}
+
+.titleWithLine h1.titleWithLine{
+    background-color: darkgreen;
+    white-space: nowrap; /* take care since this might cause problems on devices where title would be way too big(even though thats very unlikely since the website is responsive to screen size) */
+    margin-bottom: 0px; /* this is to remove the default margin that comes with h1, so the '.titleLine' can be centered properly according to the text, but [...] */
+}
+
+.titleWithLine div.titleLine{
+    width: 100%;
+    font-size:2px;
+}
+
+.titleWithLine div.titleLine span.titleLine{
+    padding-left: calc(100% - 50px);
+    margin-left: 50px;
+    background-color: black;
+
+}
+
+
+.ContentByRows{
+    background-color: saddlebrown;
+    height: 100%;
+}
+
+
+/* hide scrollbar but allow scrolling */
+.ContentByRows {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+.ContentByRows::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+
+
+@media (min-width: 768px){
+    .ContentByRows .col-6{
+        min-width: 334px;
+        max-width: 50%;
+    }
+
+    .ContentByRows .col-6.left{
+        padding-right: 4%;
+    }
+
+    .ContentByRows .col-6.right{
+        padding-left: 2%;
+    }
+}
+@media (max-width: 768px){
+    .ContentByRows .col-6{
+        min-width: 100%!important;
+        max-width: none!important;
+    }
+
+    .ContentByRows .col-6.left{
+        padding-right: 0%!important;
+    }
+
+    .ContentByRows .col-6.right{
+        padding-left: 0%!important;
+    }
+}
+
+.ContentByRows .spaced-span1{ /*                      - Care, before it was: .ContentByRows .col-6.right .spaced-span1; but i changed it       */
+    display: flex;
+    align-items: start;
+}
+
+.ContentByRows .spaced-span1 span.first{
+    min-width: 120px;
+    display: inline-block;
+    font-weight:700;
+}
+
+.ContentByRows .spaced-span1 span.second{
+    width: calc(100% - 100px - 22.25px);
+    display: inline-block;
+}
+
+.ContentByRows .spanList{
+    display: flex;
+    align-items: start;
+}
+
+.ContentByRows .spanList span.first{
+    min-width: 25px;
+    margin-left: 3.5px;
+}
+
+
+
+
+.contentBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* -------------------------------------------------HOME------------------------------------------------------------- */
+.tab-pane#home, .contentHome{
+    height: 100%;
+
+}
+
+.contentHome .row.row1{
+    background-color: red;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.contentHome .col-12.outsideColumn{
+    display: flex;
+    background-color: saddlebrown;
+    justify-content: center;
+
+    height: 100%;/*                         ALTERAR MAIS TARDE*/
+
+
+}
+
+.contentHome article{
+    display: flex;
+    width: 100%; /*                  ALTERAR MAIS TARDE */
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.contentHome article .contentBlock{
+    display: block;
+    flex-direction: column;
+}*/
+
+/*@media (min-width: 576px){
+    .row.\#maincontent{}
+}*/
+
+/* -------------------------------------------------ABOUT------------------------------------------------------------ */
+.tab-pane#about, .contentAbout{
+    height: 100%;
+
+}
+
+.contentAbout .row.row1{
+    background-color: red;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+
+
+}
+
+.contentAbout .col-12.outsideColumn{
+    display: flex;
+    background-color: saddlebrown;
+    justify-content: center;
+    height: 100%;/*                         ALTERAR MAIS TARDE*/
+
+
+}
+
+.contentAbout article{
+    display: flex;
+    width: 100%; /*                  ALTERAR MAIS TARDE */
+    background-color: bisque;
+    align-items: start;
+    justify-content: left;
+
+
+}
+
+/*
+.contentAbout article.contentBlock{
+    display: block;
+    flex-direction: column;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*Big Thick Line*/
+.bigThickLine{ /* levar pro topo mais tarde*/
+    background-color: lightcoral;
+    display: block;
+    width: 15%;
+    height: 100%;
+}
+
+@media (max-width: 992px){
+    .bigThickLine{
+        display:none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .FullContent{
+        height: 100%!important;
+    }
+
+}
