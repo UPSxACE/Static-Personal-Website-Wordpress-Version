@@ -78,9 +78,6 @@ div.pictureDivider.col-12{
 
 
 
-div.col-6.right{
-    padding-left:0px!important;
-}
 
 .contentHome .CentralText{
     padding-bottom: 25px
@@ -146,12 +143,21 @@ html, body{
     background-color: white!important;
 }
 
+h1,h2,h3,h4, p, span{
+    color: #21252a;
+}
+
+.Footer p{
+    color: white;
+}
+
 .btn-dark{
     /*background-color:#69849b!important;*/
     border-color: rgba(0,0,0,0.2);
     color:white!important;
     font-weight: 500!important;
     box-shadow: 1px 1px rgba(0,0,0,0.5) ;
+    background-color: #21252a!important;
 
 }
 
@@ -164,15 +170,23 @@ html, body{
     color: white!important;
     font-weight: 500!important;
     border-radius:0!important;
-
+    border-left-color: white!important;
     /*border: 1px solid rgba(0,0,0,0.2);*/
 
+}
+
+nav.outside .nav-tabs .nav-item:not(:last-child) button{
+    border-right-color: white!important;
 }
 
 .nav-item button.active{
     background-color: #21252a !important;
     color:white!important;
     border-radius:0;
+}
+
+nav.outside .nav-item:last-child button.active{
+    border-right-color: #21252a !important;
 }
 
 div.socialMediaIcons.test{
@@ -196,7 +210,8 @@ div.socialMediaIcons h1{
 .socialMediaIcons a{
     color:#21252a;
 }
-.socialMediaIcons a:hover{
+
+.socialMediaIcons a:hover, .socialMediaIcons a h1:hover{
     color: rgb(78, 113, 164);
 }
 
@@ -306,16 +321,37 @@ img.pic {
     }
 }
 
+@media (max-height: 400px){
+    h1.display-1{
+        font-size: calc(2rem + 0.75vh)!important;
+    }
+
+    .CentralText h4{
+        font-size: calc(0.75rem + 0.15vh)!important;
+    }
+
+    .contentHome .CentralText {
+        padding-bottom: 10px!important;
+    }
+
+    div.socialMediaIcons h1 {
+        padding-top: 10px;
+    }
+}
+
 .contentHome h1.display-1{
     margin-bottom: 0;
 }
 
 .contentBlock .titleWithLine{
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 .contentBlock .col-6{
-    margin-bottom: 20px;
+    margin-bottom: 36px;
+}
+.contentBlock .col-4{
+    margin-bottom: 36px;
 }
 
 
@@ -557,6 +593,11 @@ nav.navbar{
     .row.Footer{
         height: 43px!important;
     }
+
+    .nav-item button{
+        height: 43px;
+        line-height: 27px;
+    }
 }
 
 html,body{ /*-- Sorry for this bad practice :(
@@ -626,6 +667,35 @@ body{
 
 }
 
+.squareWrapper .row{
+    height: max-content;
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #21252a;
+    width: 31.33333333%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.square:not(:last-child){
+    margin-right: 3%;
+}
+.square i{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+@media (max-width: 767px) {
+    .square{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+
 
 .ContentByRows{
     background-color: saddlebrown;
@@ -654,7 +724,7 @@ body{
     }
 
     .ContentByRows .col-6.left{
-        padding-right: 4%;
+        padding-right: 2%;
     }
 
     .ContentByRows .col-6.right{
@@ -827,4 +897,126 @@ body{
         height: 100%!important;
     }
 
+}
+
+
+
+
+
+/* ----------------------------------------------CONTACT ME---------------------------------------------------------- */
+
+.tab-pane#contact, .contentContact{
+    height: 100%;
+
+}
+
+.contentContact .row.row1{
+    background-color: red;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+
+
+}
+
+.contentContact .col-12.outsideColumn{
+    display: flex;
+    background-color: saddlebrown;
+    justify-content: center;
+    height: 100%;/*                         ALTERAR MAIS TARDE*/
+
+
+}
+
+.contentContact article{
+    display: flex;
+    width: 100%; /*                  ALTERAR MAIS TARDE */
+    background-color: bisque;
+    align-items: start;
+    justify-content: left;
+
+
+}
+
+/* ----------------------------------------------CONTACT FORM-------------------------------------------------------- */
+.error-navigation-container, .error-navigation-inner{
+    height: 71px;
+    background-color: rgba(242,58,60,1)!important;
+}
+
+.form-line{
+    padding-top:3px!important;
+    padding-bottom:3px!important;
+    margin-top:3px!important;
+    margin-bottom:3px!important;
+    padding-left:0!important;
+    margin-left:0!important;
+    padding-right:0!important;
+    margin-right:0!important;
+}
+.jotform-form ul.form-section{
+    padding-left:0!important;
+    padding-right: 0!important;
+}
+
+form.jotform-form label{
+    display: flex;
+    justify-content: end;
+    padding:0;
+    margin:0;
+
+}
+
+.form-all{
+    margin:0!important;
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+
+.form-buttons-wrapper{
+    margin:0px!important;
+    padding:0px!important;
+    border:0!important;
+}
+
+.form-buttons-wrapper button{
+    margin:0px!important;
+    padding:0px!important;
+}
+
+.error-navigation-message{
+    color:white;
+}
+
+.submit-button{
+    border:0!important;
+    width: 100%!important;
+}
+
+.form-line-error {
+    background-color: transparent!important;
+}
+
+.map, .gmap_canvas{
+    display: flex;
+}
+
+.mapouter{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    flex-grow: 1;
+}
+
+.gmap_canvas{
+    flex-grow:1;
+}
+
+iframe{
+    flex-grow: 1;
+}
+
+div.error-navigation-container{
+    display: none;
 }
