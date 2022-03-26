@@ -121,7 +121,7 @@
                                                         <p>Very dedicated to my goals, I try my best on anything I am doing, and practice coding as much as possible on my free time.</p>
                                                         <p>Currently trying to find my path in this wide world that is IT/Programming ^-^</p>
                                                     </div>
-                                                    <div class="col-6 right">
+                                                    <div class="col-6 right d-flex flex-column breakMargin">
                                                         <div class="spaced-span1">
                                                             <span class="first">Name:</span>
                                                             <span class="second">Eduardo Botelho </span>
@@ -131,22 +131,49 @@
                                                             <span class="second">Bragança, Portugal </span>
                                                         </div>
                                                         <div class="spaced-span1">
-                                                            <span class="first">Languages:</span>
-                                                            <span class="second">Portuguese, English</span>
-                                                        </div>
-                                                        <div class="spaced-span1">
                                                             <span class="first">Degree:</span>
                                                             <span class="second">Currently Studying Software Development </span>
                                                         </div>
+                                                        <div class="languages d-flex flex-grow-1">
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle1">
+                                                                <svg width="120" height="120" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="60" cy="60" r="55" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="0" transform="rotate(-90 60 60)" />
+                                                                    <circle cx="60" cy="60" r="55" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="17" transform="rotate(-90 60 60)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="60" y="60" class="" text-anchor="middle" dominant-baseline="central">95%</text>
+                                                                </svg>
+                                                                <h6>Portuguese</h6>
+                                                            </div>
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle2">
+                                                                <svg width="120" height="120" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="60" cy="60" r="55" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="0" transform="rotate(-90 60 60)" />
+                                                                    <circle cx="60" cy="60" r="55" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="103" transform="rotate(-90 60 60)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="60" y="60" class="" text-anchor="middle" dominant-baseline="central">70%</text>
+                                                                </svg>
+                                                                <h6>English</h6>
+                                                            </div>
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle3">
+                                                                <svg width="120" height="120" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="60" cy="60" r="55" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="0" transform="rotate(-90 60 60)" />
+                                                                    <circle cx="60" cy="60" r="55" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="242" transform="rotate(-90 60 60)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="60" y="60" class="" text-anchor="middle" dominant-baseline="central">30%</text>
+                                                                </svg>
+                                                                <h6>Spanish</h6>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                     <!-- SOFT SKILLS -->
-                                                    <div class="col-6 left">
+                                                    <div class="col-6 left marginFix text-nowrap">
                                                         <div class="titleWithLine">
                                                             <h1 class="titleWithLine">SOFT SKILLS</h1>
                                                             <div class="titleLine">
                                                                 <span class="titleLine"></span>
                                                             </div>
                                                         </div>
+
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
@@ -154,6 +181,15 @@
                                                             <span class="second">
                                                                         Problem Solving
                                                                     </span>
+                                                            <span class="end">
+                                                                        Great
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="85%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -162,6 +198,15 @@
                                                             <span class="second">
                                                                         Presentation Skills
                                                                     </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="80%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -170,6 +215,15 @@
                                                             <span class="second">
                                                                         Communication
                                                                     </span>
+                                                            <span class="end">
+                                                                        Great
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="85%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -178,6 +232,15 @@
                                                             <span class="second">
                                                                         Public Speaking
                                                                     </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="75%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -186,6 +249,15 @@
                                                             <span class="second">
                                                                         Team Leadership
                                                                     </span>
+                                                            <span class="end">
+                                                                        Effective
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="65%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -194,57 +266,26 @@
                                                             <span class="second">
                                                                         Teamwork
                                                                     </span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- INTERESTS -->
-                                                    <div class="col-6 right">
-                                                        <div class="titleWithLine">
-                                                            <h1 class="titleWithLine">INTERESTS</h1>
-                                                            <div class="titleLine">
-                                                                <span class="titleLine"></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="spanList">
-                                                                    <span class="first">
-                                                                        <i class="fas fa-caret-right"></i>
-                                                                    </span>
-                                                            <span class="second">
-                                                                        Anime & Games
+                                                            <span class="end">
+                                                                        Great
                                                                     </span>
                                                         </div>
-                                                        <div class="spanList">
-                                                                    <span class="first">
-                                                                        <i class="fas fa-caret-right"></i>
-                                                                    </span>
-                                                            <span class="second">
-                                                                        Drawing & Art
-                                                                    </span>
-                                                        </div>
-                                                        <div class="spanList">
-                                                                    <span class="first">
-                                                                        <i class="fas fa-caret-right"></i>
-                                                                    </span>
-                                                            <span class="second">
-                                                                        Music & Movies
-                                                                    </span>
-                                                        </div>
-                                                        <div class="spanList">
-                                                                    <span class="first">
-                                                                        <i class="fas fa-caret-right"></i>
-                                                                    </span>
-                                                            <span class="second">
-                                                                        Neurology & Psychology
-                                                                    </span>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="95%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                     </div>
                                                     <!-- HARD SKILLS -->
-                                                    <div class="col-6 left">
+                                                    <div class="col-6 right marginFix text-nowrap">
                                                         <div class="titleWithLine">
                                                             <h1 class="titleWithLine">HARD SKILLS</h1>
                                                             <div class="titleLine">
                                                                 <span class="titleLine"></span>
                                                             </div>
                                                         </div>
+
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
@@ -252,6 +293,15 @@
                                                             <span class="second">
                                                                         Web Development
                                                                     </span>
+                                                            <span class="end">
+                                                                        Comfortable
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="45%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -260,14 +310,32 @@
                                                             <span class="second">
                                                                         Responsive Web Design
                                                                     </span>
+                                                            <span class="end">
+                                                                        Comfortable
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="40%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        Object-Oriented Programming
+                                                                        Obj-Orient. Programming
                                                                     </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="80%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -276,32 +344,61 @@
                                                             <span class="second">
                                                                         Wordpress
                                                                     </span>
+                                                            <span class="end">
+                                                                        Comfortable
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="45%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        Github
+                                                                        Git
                                                                     </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="70%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        Unified Modeling Language (UML)
+                                                                        Unif. Model. Lang. (UML)
                                                                     </span>
+                                                            <span class="end">
+                                                                        Effective
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="60%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                     </div>
-                                                    <!-- PROGRAMMING -->
-                                                    <div class="col-6 right">
+
+                                                    <!-- PROGRAMMING LANGUAGES -->
+                                                    <div class="col-12 knowledge marginFix text-nowrap">
                                                         <div class="titleWithLine">
-                                                            <h1 class="titleWithLine">PROGRAMMING</h1>
+                                                            <h1 class="titleWithLine">PROGRAMMING LANGUAGES</h1>
                                                             <div class="titleLine">
                                                                 <span class="titleLine"></span>
                                                             </div>
                                                         </div>
+
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
@@ -309,22 +406,49 @@
                                                             <span class="second">
                                                                         HTML & CSS
                                                                     </span>
+                                                            <span class="end">
+                                                                        Great
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="90%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        Javascript
+                                                                        JavaScript
                                                                     </span>
+                                                            <span class="end">
+                                                                        Great
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="85%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        C#
+                                                                        PHP
                                                                     </span>
+                                                            <span class="end">
+                                                                        Learning
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="35%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -333,6 +457,32 @@
                                                             <span class="second">
                                                                         Python
                                                                     </span>
+                                                            <span class="end">
+                                                                        Effective
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="65%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="spanList">
+                                                                    <span class="first">
+                                                                        <i class="fas fa-caret-right"></i>
+                                                                    </span>
+                                                            <span class="second">
+                                                                        C#
+                                                                    </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="75%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
                                                         </div>
                                                         <div class="spanList">
                                                                     <span class="first">
@@ -341,11 +491,80 @@
                                                             <span class="second">
                                                                         SQL
                                                                     </span>
+                                                            <span class="end">
+                                                                        Solid
+                                                                    </span>
                                                         </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="70%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
+                                                        </div>
+
                                                     </div>
 
+                                                    <!-- FRAMEWORKS -->
+                                                    <div class="col-12 knowledge marginFix text-nowrap">
+                                                        <div class="titleWithLine">
+                                                            <h1 class="titleWithLine">FRAMEWORKS</h1>
+                                                            <div class="titleLine">
+                                                                <span class="titleLine"></span>
+                                                            </div>
+                                                        </div>
 
-
+                                                        <div class="spanList">
+                                                                    <span class="first">
+                                                                        <i class="fas fa-caret-right"></i>
+                                                                    </span>
+                                                            <span class="second">
+                                                                        Bootstrap
+                                                                    </span>
+                                                            <span class="end">
+                                                                        Great
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="90%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="spanList">
+                                                                    <span class="first">
+                                                                        <i class="fas fa-caret-right"></i>
+                                                                    </span>
+                                                            <span class="second">
+                                                                        Yii2
+                                                                    </span>
+                                                            <span class="end">
+                                                                        Learning
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="30%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="spanList">
+                                                                    <span class="first">
+                                                                        <i class="fas fa-caret-right"></i>
+                                                                    </span>
+                                                            <span class="second">
+                                                                        React.JS
+                                                                    </span>
+                                                            <span class="end">
+                                                                        Learning
+                                                                    </span>
+                                                        </div>
+                                                        <div class="svg progressBar">
+                                                            <svg width="100%"  height="20px" style="filter: drop-shadow(0 0 3px #969696); padding-left:5px;">
+                                                                <rect x="0" y="0" width="100%" height="20px" fill="white"></rect>
+                                                                <rect x="0" y="0" width="10%" height="20px" fill="#21252a"></rect>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -390,7 +609,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-6 left"><!--Eu.Jotform.Com Script-->
+                                                    <div class="col-6 left breakPadding"><!--Eu.Jotform.Com Script-->
                                                         <script src="https://cdn01.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
                                                         <script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.31150" type="text/javascript"></script>
                                                         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
