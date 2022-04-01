@@ -628,7 +628,7 @@
                                                                      data-bs-toggle="modal"
                                                                      data-bs-target="#exampleModal"
                                                                      data-bs-title="Quarry manager platform, Yii2 back-end"
-                                                                     data-bs-picture="img/project5Medium.jpg"
+                                                                     data-bs-picture="<?php echo get_template_directory_uri(); ?>/img/project5Medium.jpg"
                                                                      data-bs-project-name="Quarry Manager [Stage 2/3]"
                                                                      data-bs-project-language="Portuguese"
                                                                      data-bs-project-tech="Yii2"
@@ -638,7 +638,7 @@
                                                                 >
                                                                     <div class="card" style="width: 90%;">
                                                                         <h5 class="card-title">Quarry manager platform, Yii2 back-end</h5>
-                                                                        <img src="img/project5Small.jpg" class="card-img-top" alt="...">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/project5Small.jpg" class="card-img-top" alt="...">
                                                                         <div class="card-body">
                                                                             <div class="info d-flex justify-content-between">
                                                                                 <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">21st March, 2021</span>
@@ -652,7 +652,7 @@
                                                                      data-bs-toggle="modal"
                                                                      data-bs-target="#exampleModal"
                                                                      data-bs-title="Quarry manager platform, static version"
-                                                                     data-bs-picture="img/project4Medium.png"
+                                                                     data-bs-picture="<?php echo get_template_directory_uri(); ?>/img/project4Medium.png"
                                                                      data-bs-project-name="Quarry Manager [Stage 1/3]"
                                                                      data-bs-project-language="Portuguese"
                                                                      data-bs-project-tech="Bootstrap 4, Html5, CSS3, JavaScript"
@@ -662,7 +662,7 @@
                                                                 >
                                                                     <div class="card" style="width: 90%;">
                                                                         <h5 class="card-title">Quarry manager platform, static version</h5>
-                                                                        <img src="img/project4Small.png" class="card-img-top" alt="...">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/project4Small.png" class="card-img-top" alt="...">
                                                                         <div class="card-body">
                                                                             <div class="info d-flex justify-content-between">
                                                                                 <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">30th October, 2021</span>
@@ -676,7 +676,7 @@
                                                                      data-bs-toggle="modal"
                                                                      data-bs-target="#exampleModal"
                                                                      data-bs-title="Personal Website (Wordpress Version)"
-                                                                     data-bs-picture="img/project3Medium.png"
+                                                                     data-bs-picture="<?php echo get_template_directory_uri(); ?>/img/project3Medium.png"
                                                                      data-bs-project-name="Personal Website (Static)"
                                                                      data-bs-project-language="Portuguese"
                                                                      data-bs-project-tech="Wordpress, HTML5, CSS3, Bootstrap 5"
@@ -686,7 +686,7 @@
                                                                 >
                                                                     <div class="card" style="width: 90%;">
                                                                         <h5 class="card-title">Personal website (Wordpress version)</h5>
-                                                                        <img src="img/project3Small.png" class="card-img-top" alt="...">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/project3Small.png" class="card-img-top" alt="...">
                                                                         <div class="card-body">
                                                                             <div class="info d-flex justify-content-between">
                                                                                 <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">4th January, 2022</span>
@@ -700,7 +700,7 @@
                                                                      data-bs-toggle="modal"
                                                                      data-bs-target="#exampleModal"
                                                                      data-bs-title="Personal Website (Static Version)"
-                                                                     data-bs-picture="img/project2Medium.png"
+                                                                     data-bs-picture="<?php echo get_template_directory_uri(); ?>/img/project2Medium.png"
                                                                      data-bs-project-name="Personal Website (Static)"
                                                                      data-bs-project-language="Portuguese"
                                                                      data-bs-project-tech="HTML5, CSS3, Bootstrap 5"
@@ -710,7 +710,7 @@
                                                                 >
                                                                     <div class="card" style="width: 90%;">
                                                                         <h5 class="card-title">Personal website (static version)</h5>
-                                                                        <img src="img/project2Small.png" class="card-img-top" alt="...">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/project2Small.png" class="card-img-top" alt="...">
                                                                         <div class="card-body">
                                                                             <div class="info d-flex justify-content-between">
                                                                                 <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">1st January, 2021</span>
@@ -724,7 +724,7 @@
                                                                      data-bs-toggle="modal"
                                                                      data-bs-target="#exampleModal"
                                                                      data-bs-title="Bragança 3D render, using Lumion"
-                                                                     data-bs-picture="img/project1Medium.jpg"
+                                                                     data-bs-picture="<?php echo get_template_directory_uri(); ?>/img/project1Medium.jpg"
                                                                      data-bs-project-name="Av. Sá Carneiro (Bragança) 3D Modelling"
                                                                      data-bs-project-language="Portuguese"
                                                                      data-bs-project-tech="AutoCAD, ArchiCAD, Adobe Premiere, Lumion"
@@ -734,7 +734,7 @@
                                                                 >
                                                                     <div class="card" style="width: 90%;">
                                                                         <h5 class="card-title">Bragança 3D modelling and render, using Lumion</h5>
-                                                                        <img src="img/project1Small.jpg" class="card-img-top" alt="...">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/project1Small.jpg" class="card-img-top" alt="...">
                                                                         <div class="card-body">
                                                                             <div class="info d-flex justify-content-between">
                                                                                 <span class="status">Done</span><span class="line"> | </span><span class="dateStart">1st January, 2021</span>
