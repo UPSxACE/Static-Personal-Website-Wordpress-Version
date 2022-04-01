@@ -134,7 +134,7 @@
                                                             <span class="first">Degree:</span>
                                                             <span class="second">Currently Studying Software Development </span>
                                                         </div>
-                                                        <div class="languages d-flex flex-grow-1">
+                                                        <div id="bigScreen1" class="languages d-flex flex-grow-1">
                                                             <div class="svg flex-grow-1 flex-column circle" id="circle1">
                                                                 <svg width="120" height="120" style="filter: drop-shadow(0 0 3px #969696);">
                                                                     <circle cx="60" cy="60" r="55" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="0" transform="rotate(-90 60 60)" />
@@ -159,6 +159,35 @@
                                                                     <circle cx="60" cy="60" r="55" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="346" stroke-dashoffset="242" transform="rotate(-90 60 60)" />
                                                                     Sorry, your browser does not support inline SVG.
                                                                     <text x="60" y="60" class="" text-anchor="middle" dominant-baseline="central">30%</text>
+                                                                </svg>
+                                                                <h6>Spanish</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div id="smallScreen1" class="languages d-flex flex-grow-1">
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle4">
+                                                                <svg width="90" height="90" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="45" cy="45" r="40" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="0" transform="rotate(-90 45 45)" />
+                                                                    <circle cx="45" cy="45" r="40" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="13" transform="rotate(-90 45 45)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="45" y="45" class="" text-anchor="middle" dominant-baseline="central">95%</text>
+                                                                </svg>
+                                                                <h6>Portuguese</h6>
+                                                            </div>
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle5">
+                                                                <svg width="90" height="90" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="45" cy="45" r="40" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="0" transform="rotate(-90 45 45)" />
+                                                                    <circle cx="45" cy="45" r="40" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="76" transform="rotate(-90 45 45)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="45" y="45" class="" text-anchor="middle" dominant-baseline="central">70%</text>
+                                                                </svg>
+                                                                <h6>English</h6>
+                                                            </div>
+                                                            <div class="svg flex-grow-1 flex-column circle" id="circle6">
+                                                                <svg width="90" height="90" style="filter: drop-shadow(0 0 3px #969696);">
+                                                                    <circle cx="45" cy="45" r="40" stroke="white" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="0" transform="rotate(-90 45 45)" />
+                                                                    <circle cx="45" cy="45" r="40" stroke="#21252a" stroke-width="10" fill="transparent" stroke-dasharray="252" stroke-dashoffset="176" transform="rotate(-90 45 45)" />
+                                                                    Sorry, your browser does not support inline SVG.
+                                                                    <text x="45" y="45" class="" text-anchor="middle" dominant-baseline="central">30%</text>
                                                                 </svg>
                                                                 <h6>Spanish</h6>
                                                             </div>
@@ -393,7 +422,8 @@
                                                     <!-- PROGRAMMING LANGUAGES -->
                                                     <div class="col-12 knowledge marginFix text-nowrap">
                                                         <div class="titleWithLine">
-                                                            <h1 class="titleWithLine">PROGRAMMING LANGUAGES</h1>
+                                                            <h1 class="titleWithLine bigScreen">PROGRAMMING LANGUAGES</h1>
+                                                            <h1 class="titleWithLine smallScreen">P. LANGUAGES</h1>
                                                             <div class="titleLine">
                                                                 <span class="titleLine"></span>
                                                             </div>
@@ -552,7 +582,7 @@
                                                                         <i class="fas fa-caret-right"></i>
                                                                     </span>
                                                             <span class="second">
-                                                                        React.JS
+                                                                        React.js
                                                                     </span>
                                                             <span class="end">
                                                                         Learning
@@ -564,6 +594,158 @@
                                                                 <rect x="0" y="0" width="10%" height="20px" fill="#21252a"></rect>
                                                             </svg>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECTS -->
+                    <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                        <div class="container-fluid contentProjects">
+                            <div class="row row1 g-0">
+                                <div class="col-12 outsideColumn">
+
+                                    <article>
+                                        <div class="contentBlock">
+                                            <div class="container-fluid ContentByRows">
+                                                <div class="row g-0">
+                                                    <!-- MY PROJECTS -->
+                                                    <div class="col-12">
+                                                        <div class="titleWithLine">
+                                                            <h1 class="titleWithLine">MY PROJECTS</h1>
+                                                            <div class="titleLine">
+                                                                <span class="titleLine"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="container-fluid">
+                                                            <div class="row g-0 projectsGrid">
+                                                                <div class="col-4 cardWrapper d-flex"
+                                                                     data-bs-toggle="modal"
+                                                                     data-bs-target="#exampleModal"
+                                                                     data-bs-title="Quarry manager platform, Yii2 back-end"
+                                                                     data-bs-picture="img/project5Medium.jpg"
+                                                                     data-bs-project-name="Quarry Manager [Stage 2/3]"
+                                                                     data-bs-project-language="Portuguese"
+                                                                     data-bs-project-tech="Yii2"
+                                                                     data-bs-project-status="In Progress"
+                                                                     data-bs-project-description="In this second stage, I aim to develop all the dynamic back-end functionalities, utilizing the MVC-based framework Yii2. The front-end will be completely ignored for now, as it will be later developed using React.Js."
+                                                                     data-bs-project-link="https://github.com/UPSxACE/Static-Personal-Website"
+                                                                >
+                                                                    <div class="card" style="width: 90%;">
+                                                                        <h5 class="card-title">Quarry manager platform, Yii2 back-end</h5>
+                                                                        <img src="img/project5Small.jpg" class="card-img-top" alt="...">
+                                                                        <div class="card-body">
+                                                                            <div class="info d-flex justify-content-between">
+                                                                                <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">21st March, 2021</span>
+                                                                            </div>
+                                                                            <h6 class="card-text">In this second stage, I aim to develop all the dynamic back-end functionalities, utilizing the MVC-based framework Yii2. Front-end will be completely ignored for now.</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-4 cardWrapper d-flex"
+                                                                     data-bs-toggle="modal"
+                                                                     data-bs-target="#exampleModal"
+                                                                     data-bs-title="Quarry manager platform, static version"
+                                                                     data-bs-picture="img/project4Medium.png"
+                                                                     data-bs-project-name="Quarry Manager [Stage 1/3]"
+                                                                     data-bs-project-language="Portuguese"
+                                                                     data-bs-project-tech="Bootstrap 4, Html5, CSS3, JavaScript"
+                                                                     data-bs-project-status="In Progress"
+                                                                     data-bs-project-description="A platform for a quarry company, that consists in a website where people can register and order different kinds of stone, and a dashboard where the company employees can manage the stock and the online store. The purpose of this project is to practice the technologies I am learning at this moment, and this first stage specifically is focused on Bootstrap, HTML, CSS and very few JavaScript code. On the following stages, I will be recreating all this with the help of Yii2 and React.Js frameworks."
+                                                                     data-bs-project-link="https://github.com/UPSxACE/Static-Personal-Website"
+                                                                >
+                                                                    <div class="card" style="width: 90%;">
+                                                                        <h5 class="card-title">Quarry manager platform, static version</h5>
+                                                                        <img src="img/project4Small.png" class="card-img-top" alt="...">
+                                                                        <div class="card-body">
+                                                                            <div class="info d-flex justify-content-between">
+                                                                                <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">30th October, 2021</span>
+                                                                            </div>
+                                                                            <h6 class="card-text">The purpose of this project is to practice the technologies I am learning at this moment, and this first stage specifically is focused on Bootstrap and a bit in JavaScript.</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-4 cardWrapper d-flex"
+                                                                     data-bs-toggle="modal"
+                                                                     data-bs-target="#exampleModal"
+                                                                     data-bs-title="Personal Website (Wordpress Version)"
+                                                                     data-bs-picture="img/project3Medium.png"
+                                                                     data-bs-project-name="Personal Website (Static)"
+                                                                     data-bs-project-language="Portuguese"
+                                                                     data-bs-project-tech="Wordpress, HTML5, CSS3, Bootstrap 5"
+                                                                     data-bs-project-status="In Progress"
+                                                                     data-bs-project-description="This is simply my personal website code, adapted to work on Wordpress. It was converted to a theme format, and in the future I plan to use the Wordpress features to make it more easily configurable, and dynamic."
+                                                                     data-bs-project-link="https://github.com/UPSxACE/Static-Personal-Website-Wordpress-Version"
+                                                                >
+                                                                    <div class="card" style="width: 90%;">
+                                                                        <h5 class="card-title">Personal website (Wordpress version)</h5>
+                                                                        <img src="img/project3Small.png" class="card-img-top" alt="...">
+                                                                        <div class="card-body">
+                                                                            <div class="info d-flex justify-content-between">
+                                                                                <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">4th January, 2022</span>
+                                                                            </div>
+                                                                            <h6 class="card-text">This is simply my personal website code, adapted to work on Wordpress. In the future I plan to implement Wordpress features to make it more easily configurable.</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-4 cardWrapper d-flex"
+                                                                     data-bs-toggle="modal"
+                                                                     data-bs-target="#exampleModal"
+                                                                     data-bs-title="Personal Website (Static Version)"
+                                                                     data-bs-picture="img/project2Medium.png"
+                                                                     data-bs-project-name="Personal Website (Static)"
+                                                                     data-bs-project-language="Portuguese"
+                                                                     data-bs-project-tech="HTML5, CSS3, Bootstrap 5"
+                                                                     data-bs-project-status="In Progress"
+                                                                     data-bs-project-description="In this project I created a website, line by line, to serve as my online portfolio. When I started it I had very little experience, so lots of things are not designed exactly the best way possible, even because I actively (still) run experiments on it. My goal, is to make it as much responsible as possible too."
+                                                                     data-bs-project-link="https://github.com/UPSxACE/Static-Personal-Website"
+                                                                >
+                                                                    <div class="card" style="width: 90%;">
+                                                                        <h5 class="card-title">Personal website (static version)</h5>
+                                                                        <img src="img/project2Small.png" class="card-img-top" alt="...">
+                                                                        <div class="card-body">
+                                                                            <div class="info d-flex justify-content-between">
+                                                                                <span class="status">In Progress</span><span class="line"> | </span><span class="dateStart">1st January, 2021</span>
+                                                                            </div>
+                                                                            <h6 class="card-text">In this project I created a website, line by line, to serve as my online portfolio. My goal, is to make it as much responsible as possible.</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-4 cardWrapper d-flex"
+                                                                     data-bs-toggle="modal"
+                                                                     data-bs-target="#exampleModal"
+                                                                     data-bs-title="Bragança 3D render, using Lumion"
+                                                                     data-bs-picture="img/project1Medium.jpg"
+                                                                     data-bs-project-name="Av. Sá Carneiro (Bragança) 3D Modelling"
+                                                                     data-bs-project-language="Portuguese"
+                                                                     data-bs-project-tech="AutoCAD, ArchiCAD, Adobe Premiere, Lumion"
+                                                                     data-bs-project-status="Done (8th July 2021)"
+                                                                     data-bs-project-description="This project consists of the 2D and 3D modeling of the two streets that intersect to form the Bragança viaduct, and later on, the rendering of it in Lumion."
+                                                                     data-bs-project-link="https://docs.google.com/presentation/d/10moLW6XEujsBBZuDGd_6wheEUK5Ug57r/edit?usp=sharing&ouid=103088477902107777295&rtpof=true&sd=true"
+                                                                >
+                                                                    <div class="card" style="width: 90%;">
+                                                                        <h5 class="card-title">Bragança 3D modelling and render, using Lumion</h5>
+                                                                        <img src="img/project1Small.jpg" class="card-img-top" alt="...">
+                                                                        <div class="card-body">
+                                                                            <div class="info d-flex justify-content-between">
+                                                                                <span class="status">Done</span><span class="line"> | </span><span class="dateStart">1st January, 2021</span>
+                                                                            </div>
+                                                                            <h6 class="card-text">Modeling(2D and 3D) of the two streets that intersect to form the Bragança viaduct, and rendering in Lumion.</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
